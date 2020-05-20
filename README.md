@@ -13,11 +13,11 @@
 이번 연구는 한글 필기체 이미지(Seri95a)를 사용하였으며 [데이터셋](https://github.com/callee2006/HangulDB)의 특징은 다음과 같다.
 
 ![dataset](./figure/dataset.PNG)
-![similar](./figure/similar.png)
+![similar](./figure/similar.PNG)
 
 ### Method
 
-![architecture](./figure/architecture.png)
+![architecture](./figure/architecture.PNG)
 실험은 다음과 같이 이루어졌다.
 
 1. 딥 러닝 모델으로 전체 데이터셋을 학습한다. 학습하는 과정에서 데이터셋에 대한 모든 예측값을 저장한다. 
@@ -28,7 +28,8 @@
 
 ### Result
 
-![result](./figure/result.png)
+![result](./figure/result.PNG)
+[실험 결과]
 모든 경우에 성능이 향상되는 것은 아니였으나, 대부분의 경우 성능이 향상되었다.
 성능이 떨어진경우는 1대N관계의 혼동이 존재할것으로 추측하며, 계층적 구조가 아닌 학습과정에서 상호 혼동 쌍을 이용한다면 이번 연구의 제안 모델보다 성능을 더 향상시킬 수 있을 것으로 예상한다.
 또한 이 연구는 향후 Noise Labeled된 데이터를 수정하는 기술 등에 사용될 수 있을것으로 기대한다.
