@@ -10,7 +10,7 @@
 
 ### Dataset
 
-이번 연구는 한글 필기체 이미지(Seri95a)를 사용하였으며 ![데이터셋](https://github.com/callee2006/HangulDB)의 특징은 다음과 같다.
+이번 연구는 한글 필기체 이미지(Seri95a)를 사용하였으며 [데이터셋](https://github.com/callee2006/HangulDB)의 특징은 다음과 같다.
 
 ![dataset](./figure/dataset.png)
 ![similar](./figure/similar.png)
@@ -33,4 +33,4 @@
 성능이 떨어진경우는 1대N관계의 혼동이 존재할것으로 추측하며, 계층적 구조가 아닌 학습과정에서 상호 혼동 쌍을 이용한다면 이번 연구의 제안 모델보다 성능을 더 향상시킬 수 있을 것으로 예상한다.
 또한 이 연구는 향후 Noise Labeled된 데이터를 수정하는 기술 등에 사용될 수 있을것으로 기대한다.
 
-논문 : ![LINK](http://www.riss.kr/link?id=T15488331) 
+논문 : [LINK](http://www.riss.kr/link?id=T15488331)
