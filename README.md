@@ -12,7 +12,7 @@
 
 이번 연구는 한글 필기체 이미지(Seri95a)를 사용하였으며 [데이터셋](https://github.com/callee2006/HangulDB)의 특징은 다음과 같다.
 
-<img src="/figure/dataset.PNG" width="50%" height="100%">
+<img src="/figure/dataset.PNG" width="50%" height="100%" align="center"></img>
 ![dataset](/figure/dataset.PNG){: width="50%" height="100%"}
 ![similar](/figure/similar.PNG){: width="50%" height="50%"}
 
